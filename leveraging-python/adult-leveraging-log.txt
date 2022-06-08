@@ -1,0 +1,50 @@
+Setup Summary
+ Sampled Dataset Shape: (46447, 21)
+ repetition: 10
+ use_protected: True
+ use_sample_weight: True
+ tune_threshold: False
+
+Iteration:  1/10
+ Base: Acc 0.86, meo 0.10, deo 0.16, sp 0.12
+ Leve: Acc 0.86, meo 0.05, deo 0.10, sp 0.06
+ Time : 0.083 mins
+Iteration:  2/10
+ Base: Acc 0.87, meo 0.07, deo 0.11, sp 0.12
+ Leve: Acc 0.87, meo 0.04, deo 0.08, sp 0.06
+ Time : 0.083 mins
+Iteration:  3/10
+ Base: Acc 0.86, meo 0.04, deo 0.05, sp 0.11
+ Leve: Acc 0.86, meo 0.04, deo 0.09, sp 0.07
+ Time : 0.083 mins
+Iteration:  4/10
+ Base: Acc 0.86, meo 0.07, deo 0.10, sp 0.11
+ Leve: Acc 0.86, meo 0.02, deo 0.05, sp 0.07
+ Time : 0.067 mins
+Iteration:  5/10
+ Base: Acc 0.86, meo 0.09, deo 0.15, sp 0.13
+ Leve: Acc 0.86, meo 0.04, deo 0.08, sp 0.07
+ Time : 0.083 mins
+Iteration:  6/10
+ Base: Acc 0.86, meo 0.06, deo 0.08, sp 0.11
+ Leve: Acc 0.86, meo 0.04, deo 0.10, sp 0.07
+ Time : 0.083 mins
+Iteration:  7/10
+ Base: Acc 0.86, meo 0.07, deo 0.10, sp 0.11
+ Leve: Acc 0.86, meo 0.04, deo 0.09, sp 0.07
+ Time : 0.083 mins
+Iteration:  8/10
+ Base: Acc 0.86, meo 0.07, deo 0.10, sp 0.11
+ Leve: Acc 0.86, meo 0.05, deo 0.09, sp 0.06
+ Time : 0.083 mins
+Iteration:  9/10
+ Base: Acc 0.86, meo 0.06, deo 0.08, sp 0.11
+ Leve: Acc 0.86, meo 0.05, deo 0.12, sp 0.06
+ Time : 0.067 mins
+Iteration: 10/10
+ Base: Acc 0.86, meo 0.04, deo 0.04, sp 0.11
+ Leve: Acc 0.86, meo 0.04, deo 0.09, sp 0.07
+ Time : 0.083 mins
+ Total Time: 0.800 mins
+Total Run Time: 0.817 mins
+Finished!!!
