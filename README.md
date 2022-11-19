@@ -15,7 +15,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
   - Python function <ins>load_data</ins> loads UCI-Adult and COMPAS datasets into PANDAS DataFrames.
   - Python function <ins>load_hsls_imputed</ins> loads the HSLS dataset into PANDAS DataFrames.
   - Python function <ins>load_enem</ins> loads the ENEM dataset into PANDAS DataFrames with flexible numbers of samples, classes, and groups.
-- `hsls/`: 
+- `hsls/`: accuracy-fairness tradeoff curves with different fairness budgets. 
 - `enem/`: experiments 
   - `acc-fairness-tradeoff/` for accuracy-fairness tradeoff curves with different fairness budgets. 
   - `runtime/` for parallel/ non-parallel runtime comparison.
