@@ -10,7 +10,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
 
 #### `fair-projection/` contains implementations of FairProjection
 - Python packages and environment are included in **fairprojection.yml**.
-- command to run: *python3 run <ins> run_mp.py</ins>*
+- command to run: *python3 <ins> run_mp.py</ins>*
   - <ins> GroupFair.py</ins> and <ins> coreMP.py</ins> contain the core ADMM implementations of FairProjection.
   - Python functions <ins>load_data</ins> loads UCI-Adult and COMPAS datasets into PANDAS DataFrames.
   - Python functions <ins>load_hsls_imputed</ins> loads the HSLS dataset into PANDAS DataFrames.
@@ -23,7 +23,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
 
 #### `baseline-methods/` contains baseline models: EqOdds [4], CalEqOdds [5], LevEqOpp [6], Reduction [7], Rejection [8], and [[FACT]](https://github.com/wnstlr/FACT) [9]
 - Python packages and environment are included in **baseline.yml**.
-- command to run: *python3 run_<ins> benchmark.py</ins>  -m [model name] -f [fair method] -c [constraint] -n [num iter] -i [inputfile] -s [seed]*
+- command to run: *python3 <ins> benchmark.py</ins>  -m [model name] -f [fair method] -c [constraint] -n [num iter] -i [inputfile] -s [seed]*
 - Options for arguments:
   - [model name]: gbm, logit, rf (Default: gbm)
   - [fair method]: reduction, eqodds, roc (Default: reduction)
