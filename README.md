@@ -5,12 +5,12 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
 #### `data/` contains all datasets
 - `UCI-Adult/`: raw data <ins> adult.data</ins> , <ins> adult.names</ins> , <ins> adult.test</ins>  [1].
 - `COMPAS/`: raw data <ins> compas-scores-two-years.csv</ins>  [2]
-- `HSLS/`: k-NN imputed HSLS dataset (Raw data and pre-processing: https://drive.google.com/drive/folders/14Ke1fiB5RKOVlA8iU9aarAeJF0g4SdBl)
+- `HSLS/`: k-NN imputed HSLS dataset [3] (Raw data and pre-processing: https://drive.google.com/drive/folders/14Ke1fiB5RKOVlA8iU9aarAeJF0g4SdBl)
 - `ENEM/`: downsampled pre-processed data downloaded from https://download.inep.gov.br/microdados/microdados_enem_2020.zip
 
 #### `fair-projection/` contains implementations of FairProjection
 - Python packages and environment are included in **fairprojection.yml**.
-- command to run: *python3 run_<ins> run_mp.py</ins>*
+- command to run: *python3 run <ins> run_mp.py</ins>*
   - <ins> GroupFair.py</ins> and <ins> coreMP.py</ins> contain the core ADMM implementations of FairProjection.
   - Python functions <ins>load_data</ins> loads UCI-Adult and COMPAS datasets into PANDAS DataFrames.
   - Python functions <ins>load_hsls_imputed</ins> loads the HSLS dataset into PANDAS DataFrames.
