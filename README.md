@@ -3,18 +3,18 @@
 The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Prediction via Information Projection (NeurIPS 2022 Oral)** [[arXiv]](https://arxiv.org/abs/2206.07801)
 
 #### `data/` contains all datasets
-- `UCI-Adult/`: raw data <ins> adult.data<ins> , <ins> adult.names<ins> , <ins> adult.test<ins>  [1].
-- `COMPAS/`: raw data <ins> compas-scores-two-years.csv<ins>  [2]
+- `UCI-Adult/`: raw data <ins> adult.data</ins> , <ins> adult.names</ins> , <ins> adult.test</ins>  [1].
+- `COMPAS/`: raw data <ins> compas-scores-two-years.csv</ins>  [2]
 - `HSLS/`: k-NN imputed HSLS dataset (Raw data and pre-processing: https://drive.google.com/drive/folders/14Ke1fiB5RKOVlA8iU9aarAeJF0g4SdBl)
 - `ENEM/`: downsampled pre-processed data downloaded from https://download.inep.gov.br/microdados/microdados_enem_2020.zip
 
 #### `fair-projection/` contains implementations of FairProjection
 - Python packages and environment are included in **fairprojection.yml**.
-- command to run: *python3 run_<ins> run_mp.py<ins>*
-  - <ins> GroupFair.py<ins> and <ins> coreMP.py<ins> contain the core ADMM implementations of FairProjection.
-  - Python functions <ins>load_data<ins> loads UCI-Adult and COMPAS datasets into PANDAS DataFrames.
-  - Python functions <ins>load_hsls_imputed<ins> loads the HSLS dataset into PANDAS DataFrames.
-  - Python functions <ins>load_enem<ins> loads the ENEM dataset into PANDAS DataFrames with flexible numbers of samples, classes, and groups.
+- command to run: *python3 run_<ins> run_mp.py</ins>*
+  - <ins> GroupFair.py</ins> and <ins> coreMP.py</ins> contain the core ADMM implementations of FairProjection.
+  - Python functions <ins>load_data</ins> loads UCI-Adult and COMPAS datasets into PANDAS DataFrames.
+  - Python functions <ins>load_hsls_imputed</ins> loads the HSLS dataset into PANDAS DataFrames.
+  - Python functions <ins>load_enem</ins> loads the ENEM dataset into PANDAS DataFrames with flexible numbers of samples, classes, and groups.
 - `hsls/`: 
 - `enem/`: experiments 
   - `acc-fairness-tradeoff/` for accuracy-fairness tradeoff curves with different fairness budgets. 
@@ -23,7 +23,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
 
 #### `baseline-methods/` contains baseline models: EqOdds [4], CalEqOdds [5], LevEqOpp [6], Reduction [7], Rejection [8], and [[FACT]](https://github.com/wnstlr/FACT) [9]
 - Python packages and environment are included in **baseline.yml**.
-- command to run: *python3 run_<ins> benchmark.py<ins>  -m [model name] -f [fair method] -c [constraint] -n [num iter] -i [inputfile] -s [seed]*
+- command to run: *python3 run_<ins> benchmark.py</ins>  -m [model name] -f [fair method] -c [constraint] -n [num iter] -i [inputfile] -s [seed]*
 - Options for arguments:
   - [model name]: gbm, logit, rf (Default: gbm)
   - [fair method]: reduction, eqodds, roc (Default: reduction)
