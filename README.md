@@ -21,7 +21,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
   - `runtime/` for parallel/ non-parallel runtime comparison.
   - `multi-group-multi-class/`: for multiple-group and multi-class FairProjection.
 
-#### `baseline-methods/` contains baseline models: EqOdds [4], CalEqOdds [5], LevEqOpp [6], Reduction [7], Rejection [8], and [[FACT]](https://github.com/wnstlr/FACT) [9]
+#### `baseline-methods/` contains baseline models: EqOdds [4], CalEqOdds [5], LevEqOpp [6], Reduction [7], Rejection [8], and [FACT](https://github.com/wnstlr/FACT) [9]
 - Python packages and environment are included in **baseline.yml**.
 - command to run: *python3 <ins> benchmark.py</ins>  -m [model name] -f [fair method] -c [constraint] -n [num iter] -i [inputfile] -s [seed]*
 - Options for arguments:
@@ -33,7 +33,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
   - [seed]: Any integer (Default: 42)
 - Results of this program will be saved in `results/` folder with the file name of the form `[fair method]_[model name]_s[seed]_[constraint].pkl`. You can open the result file by running the following command: *import pickle; result = pickle.load(open([filename], 'rb’))*
 
-#### `leveraging-python/` contains Python implementation of LevEqOpp [6]. The original [[implementation was]](https://github.com/lucaoneto/NIPS2019_Fairness) in R language. 
+#### `leveraging-python/` contains Python implementation of LevEqOpp [6]. The original [implementation](https://github.com/lucaoneto/NIPS2019_Fairness) was in R language. 
 
 #### `results/`: store all computation results as pickle files.
 
