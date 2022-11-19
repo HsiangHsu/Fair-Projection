@@ -12,9 +12,9 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
 - Python packages and environment are included in **fairprojection.yml**.
 - command to run: *python3 <ins> run_mp.py</ins>*
   - <ins> GroupFair.py</ins> and <ins> coreMP.py</ins> contain the core ADMM implementations of FairProjection.
-  - Python functions <ins>load_data</ins> loads UCI-Adult and COMPAS datasets into PANDAS DataFrames.
-  - Python functions <ins>load_hsls_imputed</ins> loads the HSLS dataset into PANDAS DataFrames.
-  - Python functions <ins>load_enem</ins> loads the ENEM dataset into PANDAS DataFrames with flexible numbers of samples, classes, and groups.
+  - Python function <ins>load_data</ins> loads UCI-Adult and COMPAS datasets into PANDAS DataFrames.
+  - Python function <ins>load_hsls_imputed</ins> loads the HSLS dataset into PANDAS DataFrames.
+  - Python function <ins>load_enem</ins> loads the ENEM dataset into PANDAS DataFrames with flexible numbers of samples, classes, and groups.
 - `hsls/`: 
 - `enem/`: experiments 
   - `acc-fairness-tradeoff/` for accuracy-fairness tradeoff curves with different fairness budgets. 
@@ -35,7 +35,9 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
 
 #### `leveraging-python/` contains Python implementation of LevEqOpp [6]. The original [implementation](https://github.com/lucaoneto/NIPS2019_Fairness) was in R language. 
 
-#### `results/`: store all computation results as pickle files.
+#### `results/`: stores all computation results as pickle files.
+
+#### `plot_figures.ipynb`: reproduces all figures in the paper.
 
 #### Citation
 
