@@ -33,7 +33,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
   - [seed]: Any integer (Default: 42)
 - Results of this program will be saved in `results/` folder with the file name of the form `[fair method]_[model name]_s[seed]_[constraint].pkl`. You can open the result file by running the following command: *import pickle; result = pickle.load(open([filename], 'rb’))*
 
-#### 'leveraging-python/' contains Python implementation of LevEqOpp [6]. The original [[implementation was]](https://github.com/lucaoneto/NIPS2019_Fairness) in R language. 
+#### `leveraging-python/` contains Python implementation of LevEqOpp [6]. The original [[implementation was]](https://github.com/lucaoneto/NIPS2019_Fairness) in R language. 
 
 #### `results/`: store all computation results as pickle files.
 
