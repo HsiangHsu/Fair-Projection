@@ -6,7 +6,7 @@ The official code of **Beyond Adult and COMPAS: Fairness in Multi-Class Predicti
 - `UCI-Adult/`: raw data <ins> adult.data</ins> , <ins> adult.names</ins> , <ins> adult.test</ins>  [1].
 - `COMPAS/`: raw data <ins> compas-scores-two-years.csv</ins>  [2]
 - `HSLS/`: k-NN imputed HSLS dataset [3] (Raw data and pre-processing: https://drive.google.com/drive/folders/14Ke1fiB5RKOVlA8iU9aarAeJF0g4SdBl)
-- `ENEM/`: downsampled pre-processed data downloaded from https://download.inep.gov.br/microdados/microdados_enem_2020.zip
+- `ENEM/`: downsampled pre-processed data downloaded from https://download.inep.gov.br/microdados/microdados_enem_2020.zip (a pre-processed file 'enem-50000-20.pkl' can be accessed at https://drive.google.com/file/d/14s_P1pNy4SPKoaTAtIqALngNeoPUChZ4/view?usp=share_link)
 
 #### `fair-projection/` contains implementations of FairProjection
 - Python packages and environment are included in **fairprojection.yml**.
